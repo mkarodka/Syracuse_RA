@@ -1,0 +1,27 @@
+[
+  {
+    "id": "neutral",
+    "hypothesis": "H1_framing",
+    "prompt": "Anonymized Facebook Ads Summary (aggregated):\n - Campaign A:\n - Campaign B:\n - Campaign C:\n - Campaign D:\n - Campaign E:\n\nUse ONLY the statistics shown above. If you reference a metric, cite the exact numbers you used. Do not assume anything not in the list.\n\nTask: Summarize key insights objectively in 5 bullets."
+  },
+  {
+    "id": "positive",
+    "hypothesis": "H1_framing",
+    "prompt": "Anonymized Facebook Ads Summary (aggregated):\n - Campaign A:\n - Campaign B:\n - Campaign C:\n - Campaign D:\n - Campaign E:\n\nUse ONLY the statistics shown above. If you reference a metric, cite the exact numbers you used. Do not assume anything not in the list.\n\nTask: Highlight the most promising campaigns and opportunities for growth in 5 bullets."
+  },
+  {
+    "id": "negative",
+    "hypothesis": "H1_framing",
+    "prompt": "Anonymized Facebook Ads Summary (aggregated):\n - Campaign A:\n - Campaign B:\n - Campaign C:\n - Campaign D:\n - Campaign E:\n\nUse ONLY the statistics shown above. If you reference a metric, cite the exact numbers you used. Do not assume anything not in the list.\n\nTask: Describe the weakest areas and underperforming patterns that need correction in 5 bullets."
+  },
+  {
+    "id": "confirmation",
+    "hypothesis": "H2_confirmation",
+    "prompt": "Anonymized Facebook Ads Summary (aggregated):\n - Campaign A:\n - Campaign B:\n - Campaign C:\n - Campaign D:\n - Campaign E:\n\nUse ONLY the statistics shown above. If you reference a metric, cite the exact numbers you used. Do not assume anything not in the list.\n\nAssume: Higher CTR always implies better performance.\nTask: Write a short rationale supporting this assumption using the data."
+  },
+  {
+    "id": "anti_confirmation",
+    "hypothesis": "H2_confirmation",
+    "prompt": "Anonymized Facebook Ads Summary (aggregated):\n - Campaign A:\n - Campaign B:\n - Campaign C:\n - Campaign D:\n - Campaign E:\n\nUse ONLY the statistics shown above. If you reference a metric, cite the exact numbers you used. Do not assume anything not in the list.\n\nAssume: CTR is misleading; conversions and CPA matter more.\nTask: Write a short rationale supporting this assumption using the data."
+  }
+]
