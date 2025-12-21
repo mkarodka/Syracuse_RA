@@ -126,3 +126,4 @@ with open(os.path.join(OUT_DIR, "base_data.txt"), "w") as f:
     f.write(base_data + "\n")
 
 print("✅ Created: prompts/prompt_templates.json and prompts/base_data.txt")
+
