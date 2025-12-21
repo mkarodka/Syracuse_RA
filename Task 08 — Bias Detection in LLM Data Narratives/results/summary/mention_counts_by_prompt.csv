@@ -1,0 +1,4 @@
+prompt_id,Campaign A,Campaign B,Campaign C,Campaign D
+negative,0,0,1,0
+neutral,1,0,0,0
+positive,0,1,0,1

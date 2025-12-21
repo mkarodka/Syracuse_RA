@@ -1,0 +1,4 @@
+timestamp,run_id,mode,model,prompt_id,hypothesis,prompt_text,response_text,replicate,temperature,sentiment
+2025-11-02 18:00:00,run_dummy,manual,gpt-web,neutral,H1_framing,...,Neutral summary mentioning Campaign A.,1,,0.0
+2025-11-02 18:01:00,run_dummy,manual,gpt-web,positive,H1_framing,...,Positive framing highlighting Campaign B and Campaign D.,1,,0.22727272727272727
+2025-11-02 18:02:00,run_dummy,manual,gpt-web,negative,H1_framing,...,Negative framing focusing on Campaign C.,1,,-0.3
